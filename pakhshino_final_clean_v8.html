@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پخشینو | خدمات تبلیغاتی و کاربردی</title>
+<style>
+*{box-sizing:border-box}html,body{width:100%;max-width:100%;overflow-x:hidden}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#070b14;color:#f6f8ff;line-height:1.8}a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+.header{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.9);backdrop-filter:blur(15px);border-bottom:1px solid #1d2638}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-size:25px;font-weight:900}.brand span{color:#5b8cff}.nav nav{display:flex;gap:22px;color:#b8c2d8;font-size:14px}.nav nav a:hover{color:#fff}
+.btn{display:inline-block;border:0;border-radius:13px;padding:12px 22px;background:linear-gradient(135deg,#5b8cff,#7c5cff);color:#fff;font-weight:800;cursor:pointer;box-shadow:0 10px 30px #4f65ff24;font-family:inherit}.btn.small{padding:8px 15px}.btn.ghost{background:transparent;border:1px solid #35425c;box-shadow:none}.menu-btn{display:none;background:#10192b;border:1px solid #2b3a57;color:#fff;border-radius:12px;padding:8px 12px;font-size:22px;cursor:pointer}.mobile-nav{display:none;position:relative}.mobile-nav summary{list-style:none}.mobile-nav summary::-webkit-details-marker{display:none}.mobile-menu{display:none;background:#0b111e;border-bottom:1px solid #1d2638;padding:12px}.mobile-menu a{display:block;padding:11px 10px;color:#cbd5e8;border-radius:10px}.mobile-menu a:hover{background:#111d31;color:#fff}
+.hero{position:relative;overflow:hidden;padding:95px 0 80px;background:radial-gradient(circle at 80% 25%,#193a8738,transparent 35%),linear-gradient(180deg,#0a1020,#070b14)}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:70px}.badge,.eyebrow,.section-head span{display:inline-block;color:#83a8ff;background:#101b35;border:1px solid #263d70;border-radius:30px;padding:5px 13px;font-size:13px;font-weight:bold}.hero h1{font-size:clamp(42px,6vw,74px);line-height:1.15;margin:20px 0}.hero h1 strong{color:#6e94ff}.hero p{color:#aeb9cf;max-width:650px;font-size:17px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.stats{display:flex;gap:30px;margin-top:35px}.stats div{display:flex;flex-direction:column}.stats b{font-size:18px}.stats span{font-size:12px;color:#77839b}.hero-card{padding:35px;border:1px solid #273653;background:linear-gradient(160deg,#111a2c,#0b111e);border-radius:28px;box-shadow:0 30px 80px #0008}.phone-top{text-align:center;color:#7887a5;font-size:13px}.card-icon{font-size:65px;text-align:center;margin:35px 0 5px}.hero-card h3{font-size:25px}.hero-card p{font-size:14px}.mini-row{display:flex;justify-content:space-between;margin-top:30px;padding:13px;border-radius:12px;background:#111c31;color:#aab7d1}.mini-row strong{color:#82a5ff}
+.section{padding:90px 0}.section.dark{background:#0b111e;border-block:1px solid #172237}.section-head{text-align:center;margin-bottom:40px}.section-head h2{font-size:35px;margin:10px 0 3px}.section-head p{color:#8794ac}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.cards article{padding:25px;border:1px solid #202d45;background:#0c1321;border-radius:20px;transition:.2s}.cards article:hover{transform:translateY(-5px);border-color:#3f5f9d}.ico{font-size:34px}.cards h3{margin:12px 0 5px}.cards p{color:#8996ad;font-size:14px;min-height:55px}.cards a{color:#7da0ff;font-size:13px}.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.price{position:relative;padding:32px;border:1px solid #25334c;border-radius:22px;background:#0d1524;text-align:center}.price.featured{border-color:#607fff;box-shadow:0 20px 60px #3d5cff18}.price .tag{position:absolute;top:14px;right:14px;background:#607fff;border-radius:20px;padding:2px 9px;font-size:11px}.amount{font-size:28px;font-weight:900;margin:20px 0}.price p{color:#8e9ab0}.vip{display:grid;grid-template-columns:1.4fr .6fr;gap:50px;align-items:center}.vip h2{font-size:38px}.vip p,.vip li{color:#9ba7bd}.vip ul{padding-right:20px}.vip-box{text-align:center;padding:35px;border:1px solid #2d3d5a;border-radius:24px;background:linear-gradient(160deg,#111a2d,#0c1320)}.vip-box>div{font-size:55px}
+.order{max-width:700px}.order form{display:grid;gap:16px}.order label{color:#b8c4da;font-size:14px}.order input,.order select,.order textarea{width:100%;margin-top:7px;background:#0c1423;border:1px solid #293852;border-radius:12px;padding:13px;color:#fff;font:inherit;outline:none}.order input:focus,.order select:focus,.order textarea:focus{border-color:#668cff}.order button{font:inherit}.footer{display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;padding:55px 0;color:#8794aa}.footer b{color:#fff;font-size:18px}.footer a{color:#9eb8ff}.copy{text-align:center;border-top:1px solid #172236;padding:20px;color:#8b96aa;font-size:12px}.glow{position:absolute;width:300px;height:300px;border-radius:50%;background:#476cff22;filter:blur(60px);top:100px;right:-100px}
+#result{margin-top:8px}.result-box{padding:16px;border-radius:16px;background:#101a31;border:1px solid #26375f;line-height:2}.order-summary{white-space:pre-wrap;background:#09101d;border:1px solid #23304a;padding:12px;border-radius:12px;color:#d9e2f3;margin:12px 0;font-size:13px}.result-actions{display:flex;gap:9px;flex-wrap:wrap}.notice{color:#8fa0ba;font-size:12px;margin-top:8px}
+@media(max-width:1050px){.nav nav{display:none}.nav>.btn{display:none}.mobile-nav{display:block}.menu-btn{display:block}.mobile-nav[open] .mobile-menu{display:block;position:fixed;top:72px;right:4%;width:min(300px,90vw);max-height:calc(100vh - 88px);overflow-y:auto;border:1px solid #263650;border-radius:14px;box-shadow:0 18px 45px #0008;z-index:100}.wrap{width:min(1120px,90%)}.hero{padding-top:60px}.hero-grid,.vip{grid-template-columns:1fr}.hero-card{display:none}.cards{grid-template-columns:1fr 1fr}.prices{grid-template-columns:1fr}.footer{grid-template-columns:1fr}.hero h1{font-size:clamp(38px,10vw,52px)}.hero{padding-top:60px}.hero-grid,.vip{grid-template-columns:1fr}.hero-card{display:none}.cards{grid-template-columns:1fr 1fr}.prices{grid-template-columns:1fr}.footer{grid-template-columns:1fr}.hero h1{font-size:45px}}
+@media(max-width:480px){.wrap{width:calc(100% - 28px)}.nav{min-height:64px}.brand{font-size:21px}.menu-btn{font-size:20px;padding:7px 10px}.mobile-nav[open] .mobile-menu{top:64px;right:14px;width:calc(100vw - 28px);max-width:none}.cards{grid-template-columns:1fr}.stats{gap:15px;flex-wrap:wrap}.section{padding:55px 0}.section-head h2{font-size:28px}.hero h1{font-size:38px}.hero p{font-size:15px}.result-actions .btn{width:100%;text-align:center}.contact-number{font-size:22px;word-break:break-word} .simple-order{margin-top:20px}.order-steps{display:grid;gap:12px;margin-bottom:18px}.order-step{display:grid;gap:4px;padding:14px;border:1px solid #263650;border-radius:12px;background:#0d1626}.order-step span{color:#aebbd0;font-size:14px}.static-copy{white-space:pre-wrap;line-height:1.9;cursor:text;user-select:text;-webkit-user-select:text}.result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}}
+.faq-card{max-width:900px;margin:auto;background:#0d1422;border:1px solid #1d2a42;border-radius:20px;padding:28px;box-shadow:0 18px 45px #0005}.faq-item{border-bottom:1px solid #1d2a42;padding:18px 0}.faq-item:last-child{border-bottom:0}.faq-q{font-weight:900;font-size:17px;margin-bottom:7px}.faq-a{color:#b8c2d8}.contact-card{max-width:700px;margin:auto;text-align:center;background:#101a31;border:1px solid #26375f;border-radius:20px;padding:30px}.contact-number{font-size:28px;font-weight:900;letter-spacing:1px;margin:10px 0 20px;color:#fff}
+.order-copy-box{width:100%;min-height:180px;margin:14px 0;background:#0c1423;border:1px solid #293852;border-radius:12px;padding:13px;color:#fff;font:inherit;line-height:1.9;resize:vertical;direction:rtl;text-align:right;}
+.result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.result-actions .btn{flex:1;min-width:180px;text-align:center;}
+@media(max-width:480px){.result-actions{display:grid;grid-template-columns:1fr}.result-actions .btn{width:100%;min-width:0}.order-copy-box{min-height:210px;font-size:14px}}
+
+/* mobile-safe layout */
+html,body{max-width:100%;overflow-x:hidden}.wrap,.section,.hero,.header,main,footer{max-width:100%;}.order input,.order select,.order textarea{max-width:100%;min-width:0}.result-box{max-width:100%;overflow:hidden}.order-copy-box{display:block;width:100%;box-sizing:border-box;overflow:auto;white-space:pre-wrap;word-break:break-word;}
+.order-copy-box:focus{border-color:#668cff;outline:2px solid #668cff55;}
+
+.order-field{display:block;color:#b8c4da;font-size:14px;margin-bottom:14px}.order-field select,.order-field textarea{width:100%;box-sizing:border-box;margin-top:8px;background:#0c1423;border:1px solid #293852;border-radius:12px;padding:13px;color:#fff;font:inherit;outline:none}.order-field textarea{resize:vertical;min-height:130px}.order-field select:focus,.order-field textarea:focus{border-color:#668cff}.simple-order{padding:22px}.static-copy{margin-top:10px}
+
+/* حالت روز و شب */
+body.day-mode{background:#f4f7fb;color:#172033}body.day-mode .header{background:rgba(255,255,255,.94);border-bottom-color:#dbe3ef}body.day-mode .section.dark,body.day-mode .light{background:#f4f7fb}body.day-mode .card,body.day-mode .price,body.day-mode .result-box,body.day-mode .contact-card{background:#fff;border-color:#dbe3ef;color:#172033;box-shadow:0 8px 25px rgba(20,40,80,.08)}body.day-mode .muted,body.day-mode .section-head p,body.day-mode .price p{color:#5b6780}body.day-mode input,body.day-mode textarea,body.day-mode select{background:#fff;color:#172033;border-color:#cbd5e1}body.day-mode .mobile-menu{background:#fff;border-color:#dbe3ef}body.day-mode .mobile-menu a{color:#172033}.theme-btn{border:1px solid #33415f;background:#111a2d;color:#fff;border-radius:10px;padding:9px 12px;cursor:pointer;font-weight:800}.day-mode .theme-btn{background:#fff;color:#172033;border-color:#cbd5e1}.theme-wrap{display:inline-flex;align-items:center;margin-right:8px}
+
+.logo-brand{display:flex;align-items:center;gap:9px;white-space:nowrap}.logo-mark{width:42px;height:42px;display:grid;place-items:center;color:#5b8cff;border-radius:14px;background:linear-gradient(135deg,#162b61,#101a36);box-shadow:0 8px 25px #4f65ff24}.logo-mark svg{width:29px;height:29px}.logo-text{font-size:25px;font-weight:900}.logo-text span{color:#5b8cff}.header-actions{display:flex;align-items:center;gap:8px}.icon-btn{width:42px;height:42px;border:1px solid #35425c;border-radius:13px;background:#0d1424;color:#fff;font-size:25px;cursor:pointer;display:grid;place-items:center}.site-search{display:none;position:absolute;top:72px;left:0;right:0;padding:12px;background:rgba(7,11,20,.97);border-bottom:1px solid #243250;box-shadow:0 15px 35px #0006}.site-search.open{display:block}.search-inner{width:min(720px,92%);margin:auto;display:flex;gap:8px}.search-inner input{flex:1;background:#10192b;border:1px solid #35425c;border-radius:13px;padding:12px 15px;color:#fff;font:inherit;outline:none}.search-inner input:focus{border-color:#5b8cff;box-shadow:0 0 0 3px #5b8cff22}.search-inner button{width:44px;border:1px solid #35425c;border-radius:13px;background:#10192b;color:#fff;font-size:24px;cursor:pointer}.search-results{width:min(720px,92%);margin:8px auto 0}.search-result{display:block;padding:9px 13px;margin-top:6px;border:1px solid #263552;border-radius:11px;background:#0e1728;color:#dbe5ff}.search-result:hover{border-color:#5b8cff;background:#13203a}.search-empty{color:#8794ac;text-align:center;padding:8px}
+@media(max-width:900px){.nav nav,.header-order,.theme-wrap{display:none}.header-actions{margin-right:auto}.mobile-nav{display:block}.logo-mark{width:39px;height:39px}.logo-text{font-size:22px}.site-search{top:68px}}
+
+
+
+/* پخشینو — polish */
+html{scroll-padding-top:88px;scroll-behavior:smooth}
+.card, .service-grid article, .hero-card, .price-card, .vip-card, .contact-card, .result-box{transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+.card:hover,.service-grid article:hover,.hero-card:hover,.price-card:hover,.vip-card:hover,.contact-card:hover{transform:translateY(-6px);box-shadow:0 18px 45px #0005;border-color:#416dcc}
+.section-head{animation:fadeUp .55s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.search-result{transition:transform .18s ease,background .18s ease,border-color .18s ease}.search-result:hover{transform:translateX(-3px)}
+.site-search.open{animation:searchDrop .2s ease both}
+@keyframes searchDrop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.rules-box{display:grid;gap:14px;max-width:850px;margin:auto}
+.rule-card{background:linear-gradient(145deg,#0e1728,#0a1220);border:1px solid #263756;border-radius:18px;padding:18px 20px;box-shadow:0 10px 28px #0003}
+.rule-card h3{margin:0 0 8px;color:#fff}.rule-card p{margin:0;color:#b9c5da}.rule-card hr{border:0;border-top:1px solid #22304a;margin:14px 0}
+.pakhshino-notice{position:fixed;right:50%;top:88px;transform:translateX(50%) translateY(-15px);z-index:100;display:none;max-width:min(92%,520px);background:#0e1a2e;border:1px solid #365b9e;border-radius:14px;padding:11px 16px;box-shadow:0 15px 40px #0007;color:#eaf1ff;font-weight:700}
+.pakhshino-notice.show{display:block;animation:noticeIn .35s ease both}
+@keyframes noticeIn{to{opacity:1;transform:translateX(50%) translateY(0)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* جستجوی پایدار پخشینو */
+.site-search{visibility:hidden;opacity:0;transform:translateY(-8px);pointer-events:none;display:block!important;position:absolute;top:100%;left:0;right:0;z-index:9999;padding:14px;background:rgba(7,11,20,.98);border-bottom:1px solid #243250;box-shadow:0 18px 40px #0008;transition:opacity .18s ease,transform .18s ease,visibility .18s ease}
+.site-search.open{visibility:visible;opacity:1;transform:translateY(0);pointer-events:auto}
+.search-inner{width:min(720px,92%);margin:auto;display:flex;gap:8px}
+.search-inner input{min-width:0}
+.search-results{width:min(720px,92%);max-height:55vh;overflow:auto;margin:8px auto 0}
+.search-result{display:block;padding:10px 13px;margin-top:6px;border:1px solid #263552;border-radius:11px;background:#0e1728;color:#dbe5ff;cursor:pointer}
+.search-result:hover,.search-result:focus{border-color:#5b8cff;background:#13203a;outline:none}
+.search-empty{color:#8794ac;text-align:center;padding:10px}
+@media(max-width:900px){.site-search{top:100%}}
+</style>
+
+<style id="pakhshino-calc-css">.calculator-card{max-width:760px;margin:0 auto;padding:24px;border:1px solid #29436f;border-radius:24px;background:linear-gradient(160deg,#101b30,#0b1321);box-shadow:0 18px 55px #0005;display:grid;gap:16px}.calculator-card label{color:#b8c4da;font-size:14px}.calculator-card select,.calculator-card input{width:100%;box-sizing:border-box;margin-top:7px;background:#0c1423;border:1px solid #293852;border-radius:12px;padding:13px;color:#fff;font:inherit;outline:none}.calculator-card select:focus,.calculator-card input:focus{border-color:#668cff}.calc-result{padding:16px;border-radius:18px;background:#0b1220;border:1px solid #233450}.calc-row{display:flex;justify-content:space-between;gap:15px;padding:9px 0;color:#9daac0}.calc-row strong{color:#fff}.calc-total{border-top:1px solid #26364f;margin-top:7px;padding-top:15px;font-size:18px}.calc-total strong{color:#7ea3ff;font-size:24px}.calc-message{margin:10px 0 0;color:#9aa8c0;font-size:13px}.offer-badge{display:inline-block;margin:0 0 12px;padding:7px 11px;border-radius:999px;background:#182d52;border:1px solid #31578f;color:#9fc0ff;font-size:12px;font-weight:800}.floating-order{position:fixed;left:16px;bottom:16px;z-index:900;padding:12px 17px;border-radius:999px;background:linear-gradient(135deg,#5b8cff,#7c5cff);color:#fff;font-weight:900;box-shadow:0 12px 35px #0008;text-decoration:none}.floating-order:hover{transform:translateY(-2px)}@media(max-width:700px){.calculator-card{padding:18px}.floating-order{left:12px;bottom:12px;font-size:13px}}</style>
+<style id="pakhshino-reviews-css">
+.review-card{max-width:760px;margin:0 auto;padding:24px;border:1px solid #29436f;border-radius:24px;background:linear-gradient(160deg,#101b30,#0b1321);box-shadow:0 18px 55px #0005;display:grid;gap:14px}.review-card label{color:#b8c4da;font-size:14px}.review-card input,.review-card textarea{width:100%;box-sizing:border-box;margin-top:7px;background:#0c1423;border:1px solid #293852;border-radius:12px;padding:13px;color:#fff;font:inherit;outline:none}.review-card input:focus,.review-card textarea:focus{border-color:#668cff}.review-list{display:grid;gap:12px;margin-top:18px}.review-item{padding:16px;border:1px solid #263b60;border-radius:16px;background:#0c1526}.review-top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}.review-name{font-weight:900;color:#dbe5ff}.review-date{font-size:11px;color:#71809a}.review-text{margin:0;color:#aebbd0;line-height:1.9;white-space:pre-wrap;word-break:break-word}.review-empty{text-align:center;color:#71809a;padding:18px;border:1px dashed #293852;border-radius:16px}.review-actions{display:flex;justify-content:flex-end;margin-top:8px}.review-delete{border:0;background:transparent;color:#71809a;font:inherit;font-size:12px;cursor:pointer}.review-delete:hover{color:#ff8f8f}@media(max-width:700px){.review-card{padding:18px}.review-top{align-items:flex-start;flex-direction:column;gap:4px}}
+</style>
+<style id="loyal-css">
+.loyal-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:28px}.loyal-card{position:relative;padding:22px 14px;text-align:center;border:1px solid #263d68;border-radius:20px;background:linear-gradient(160deg,#101b30,#0b1321);box-shadow:0 12px 35px #0004;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}.loyal-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #0007;border-color:#4e7ee0}.loyal-avatar{width:54px;height:54px;margin:0 auto 12px;border-radius:50%;display:grid;place-items:center;background:#172a4c;border:1px solid #31578f;font-size:25px}.loyal-card h3{margin:0 0 6px;color:#fff;font-size:15px}.loyal-card p{margin:0;color:#8796b1;font-size:12px}.loyal-note{margin:22px auto 0;max-width:650px;text-align:center;color:#8f9db5;font-size:13px}@media(max-width:900px){.loyal-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:600px){.loyal-grid{grid-template-columns:repeat(2,1fr)}.loyal-card{padding:18px 10px}}
+</style>
+</head>
+<body>
+<div id="pakhshinoNotice" class="pakhshino-notice" role="status">✨ خوش آمدید به پخشینو</div>
+
+
+<header class="header">
+  <div class="wrap nav">
+    <a class="brand logo-brand" href="#home" aria-label="پخشینو">
+      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="4"/><path d="M16 27c4-4 12-4 16 0M13 21c6-6 16-6 22 0M20 33h8" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/></svg></span>
+      <span class="logo-text">پخش<span>ینو</span></span>
+    </a>
+    <nav>
+      <a href="#home">خانه</a><a href="#services">خدمات</a><a href="#prices">تعرفه‌ها</a><a href="#finance">💳 سیستم مالی</a><a href="#vip">VIP</a><a href="#order">ثبت سفارش</a><a href="#about">درباره ما</a><a href="#faq">سوالات متداول</a><a href="#contact">تماس با ما</a><a href="#rules">📜 قوانین</a><a href="#support">پشتیبانی</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-btn" type="button" id="searchBtn" aria-label="جستجو">⌕</button>
+      <details class="mobile-nav">
+        <summary class="menu-btn" aria-label="باز کردن منو">☰</summary>
+        <div class="mobile-menu">
+          <button id="themeBtnMobile" class="theme-btn" type="button" onclick="toggleTheme()">☀️ حالت روز</button>
+          <a href="#home">🏠 خانه</a><a href="#services">📢 خدمات</a><a href="#prices">💰 تعرفه‌ها</a><a href="#finance">💳 سیستم مالی</a><a href="#vip">⭐ VIP</a><a href="#order">📝 ثبت سفارش</a><a href="#reviews">💬 ارسال نظر</a><a href="#loyal">💙 مشتریان وفادار</a><a href="#about">👤 درباره ما</a><a href="#faq">❓ سوالات متداول</a><a href="#contact">📞 تماس با ما</a><a href="#rules">📜 قوانین</a><a href="#support">💬 پشتیبانی</a><a href="https://rubika.ir/ADMIN_botrell">📱 روبیکا</a>
+        </div>
+      </details>
+      <a class="btn small header-order" href="#order">ثبت سفارش</a>
+    </div>
+  </div>
+  <div id="siteSearch" class="site-search">
+    <div class="search-inner">
+      <input id="siteSearchInput" type="search" placeholder="جستجو در پخشینو..." autocomplete="off" id="siteSearchInput">
+      <button id="searchClose" type="button" aria-label="بستن جستجو">×</button>
+    </div>
+    <div id="searchResults" class="search-results"></div>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero"><div class="glow"></div><div class="wrap hero-grid"><div>
+  <div class="badge">🚀 پلتفرم خدماتی و تبلیغاتی پخشینو</div>
+  <h1>تبلیغاتت رو<br><strong>سریع‌تر پخش کن!</strong></h1>
+  <p>پخشینو برای تبلیغات، خدمات کاربردی، ثبت سفارش و خرید شارژ در کنارته. ساده، سریع و آماده سفارش.</p>
+  <div class="actions"><a class="btn" href="#order">همین حالا سفارش بده</a><a class="btn ghost" href="#prices">مشاهده تعرفه‌ها</a></div>
+  <div class="stats"><div><b>24/7</b><span>دسترسی</span></div><div><b>⚡ سریع</b><span>ثبت سفارش</span></div><div><b>📣 متنوع</b><span>خدمات تبلیغاتی</span></div></div>
+</div><div class="hero-card"><div class="phone-top">پخشینو</div><div class="card-icon">📢</div><h3>تبلیغات کم‌هزینه</h3><p>تبلیغ خودت رو ثبت کن و سفارش رو سریع شروع کن.</p><div class="mini-row"><span>پخش تبلیغ</span><strong>شروع سریع ←</strong></div></div></div></section>
+
+<section id="about" class="section"><div class="wrap"><div class="section-head"><span>درباره ما</span><h2>پخشینو؛ ساده، سریع و کاربردی 🚀</h2><p>پخشینو با هدف ساده‌تر کردن ثبت سفارش خدمات تبلیغاتی و کاربردی ساخته شده است. تلاش ما این است که مسیر انتخاب خدمت، ثبت سفارش و ارتباط با پشتیبانی برای کاربران راحت و شفاف باشد.</p></div><div class="cards"><article><div class="ico">💎</div><h3>یک مجموعه برای خدمات مختلف</h3><p>خدمات و سفارش‌ها را در یک محیط مرتب و ساده دنبال کنید.</p></article><article><div class="ico">⚡</div><h3>ثبت سفارش آسان</h3><p>اطلاعات موردنیاز را وارد کنید و برای ادامه، مستقیم به روبیکا بروید.</p></article><article><div class="ico">💬</div><h3>ارتباط با پشتیبانی</h3><p>برای پیگیری و هماهنگی سفارش می‌توانید از راه ارتباطی پخشینو استفاده کنید.</p></article></div></div></section>
+
+<section id="services" class="section"><div class="wrap"><div class="section-head"><span>خدمات</span><h2>پخشینو چه کارهایی انجام می‌دهد؟</h2><p>چند سرویس کاربردی در یک مجموعه</p></div><div class="cards">
+<article><div class="ico">📢</div><h3>تبلیغات</h3><p>ثبت سفارش تبلیغاتی با تعرفه‌های متنوع و مناسب.</p><a href="#order">ثبت سفارش ←</a></article>
+<article><div class="ico">⭐</div><h3>VIP</h3><p>دسترسی به خدمات ویژه و امکانات بیشتر برای کاربران.</p><a href="#vip">مشاهده VIP ←</a></article>
+<article><div class="ico">📱</div><h3>خرید شارژ</h3><p>خرید شارژ تلفن همراه با روند ساده و سریع.</p><a href="#order">خرید شارژ ←</a></article>
+<article><div class="ico">🧰</div><h3>خدمات کاربردی</h3><p>ابزارها و خدمات متنوع برای استفاده روزمره.</p><a href="#order">مشاهده خدمات ←</a></article>
+</div></div></section>
+
+<section id="prices" class="section dark"><div class="wrap"><div class="section-head"><span>تعرفه‌ها</span><h2>تبلیغات متناسب با بودجه شما</h2><p>نمونه تعرفه‌ها؛ قابل تغییر از داخل کد</p></div><div class="prices">
+<div class="price"><h3>ارسال به ۳۰۰ نفر</h3><div class="amount">۲۰٬۰۰۰ <small>تومان</small></div><p>پخش تبلیغ تا ۳۰۰ نفر</p><a class="btn ghost" href="#order">سفارش</a></div>
+<div class="price featured" style="border:2px solid #2196f3;box-shadow:0 0 0 2px #2196f322,0 0 25px #2196f344"><div class="tag">پیشنهادی</div><h3>ارسال به ۱۰٬۰۰۰ نفر</h3><div class="amount">۷۰٬۰۰۰ <small>تومان</small></div><p>پخش تبلیغ تا ۱۰ هزار نفر</p><a class="btn" href="#order">سفارش</a></div>
+<div class="price"><h3>ارسال به ۳٬۵۰۰ گروه</h3><div class="amount">۸۰٬۰۰۰ <small>تومان</small></div><p>پخش تبلیغ در ۳۵۰۰ گروه</p><a class="btn ghost" href="#order">سفارش</a></div>
+</div></div></section>
+
+<section id="finance" class="section dark"><div class="wrap"><div class="section-head"><span>پرداخت</span><h2>💳 سیستم مالی پخشینو</h2><p>برای پرداخت سفارش، مبلغ را واریز کنید و سپس اطلاعات پرداخت را برای پشتیبانی ارسال کنید.</p></div><div class="result-box simple-order" style="text-align:center;max-width:650px;margin:auto"><div style="font-size:15px;color:#b8c2d8">شماره کارت</div><div id="cardNumber" style="font-size:clamp(22px,5vw,32px);font-weight:900;letter-spacing:2px;direction:ltr;margin:10px 0">6219861958584731</div><div style="font-weight:800;margin-bottom:18px">به نام: آیهان اسدی</div><button class="btn" type="button" onclick="copyCard()">📋 کپی خودکار شماره کارت</button><div id="cardResult" class="notice"></div></div></div></section>
+
+<section id="vip" class="section"><div class="wrap vip"><div><span class="eyebrow">پخشینو VIP</span><h2>امکانات بیشتر، تجربه بهتر ⭐</h2><p>برای کاربرانی که استفاده بیشتری از خدمات پخشینو دارند، بخش VIP را در نظر گرفته‌ایم.</p><ul><li>⚡ دسترسی سریع‌تر به خدمات</li><li>🎁 امکانات ویژه</li><li>🛎️ مسیر سفارش ساده</li></ul></div><div class="vip-box"><div>💎</div><h3>پلن‌های VIP پخشینو</h3><p>۷ روزه: ۱۵۰٬۰۰۰ تومان</p><p>۱۵ روزه: ۲۵۰٬۰۰۰ تومان</p><p>۴۰ روزه: ۵۵۰٬۰۰۰ تومان</p><a class="btn" href="#order">خرید VIP</a></div></div></section>
+
+
+<section id="calculator" class="section dark"><div class="wrap"><div class="section-head"><span>محاسبه سفارش</span><h2>🧮 قیمت سفارشت رو حساب کن</h2><p>نوع تبلیغ و تعداد سفارش را انتخاب کن؛ مبلغ و تخفیف خودکار محاسبه می‌شود.</p></div><div class="calculator-card"><div><span class="offer-badge">🎁 خرید ۲ سفارش یا بیشتر = ۱۰٪ تخفیف</span><label>📣 نوع تبلیغ<select id="calcType"><option value="20000">تبلیغات ۳۰۰ نفره — ۲۰٬۰۰۰ تومان</option><option value="70000">تبلیغات ۱۰٬۰۰۰ نفره — ۷۰٬۰۰۰ تومان</option><option value="80000">تبلیغات ۳٬۵۰۰ گروه — ۸۰٬۰۰۰ تومان</option></select></label></div><label>🔢 تعداد سفارش<input id="calcQty" type="number" min="1" max="100" value="1" inputmode="numeric" step="1" autocomplete="off"></label><div class="calc-result" aria-live="polite"><div class="calc-row"><span>قیمت اصلی</span><strong id="calcOriginal">۲۰٬۰۰۰ تومان</strong></div><div class="calc-row"><span>تخفیف</span><strong id="calcDiscount">۰ تومان</strong></div><div class="calc-row calc-total"><span>مبلغ نهایی</span><strong id="calcTotal">۲۰٬۰۰۰ تومان</strong></div><p class="calc-message" id="calcMessage">با خرید ۲ سفارش یا بیشتر، ۱۰٪ تخفیف اعمال می‌شود.</p></div><a class="btn" href="#order">🚀 ثبت سفارش</a></div></div></section>
+<section id="order" class="section dark"><div class="wrap order"><div class="section-head"><span>ثبت سفارش</span><h2>سفارشت رو همین‌جا بنویس 🚀</h2><p>نوع سفارش و توضیحاتت رو وارد کن، بعد وارد روبیکا شو و برای ادمین بفرست.</p></div>
+<div class="result-box simple-order">
+  <label class="order-field">📌 نوع سفارش
+    <select id="orderType">
+      <option>تبلیغات</option><option>خرید VIP</option><option>خرید شارژ</option><option>خدمات دیگر</option>
+    </select>
+  </label>
+  <label class="order-field">✍️ توضیحات سفارش
+    <textarea id="orderNote" rows="6" placeholder="مثلاً: تبلیغ برای کانال می‌خواهم...
+هر توضیحی لازم است اینجا بنویس."></textarea>
+  </label>
+  <div class="order-copy-box static-copy" id="orderPreview">سلام، برای ثبت سفارش پخشینو پیام دادم.
+
+نوع سفارش: تبلیغات
+توضیحات: ...
+
+لطفاً سفارش من را بررسی کنید.</div>
+  <div class="notice">💡 برای کپی کردن متن سفارش، روی متن بالا چند لحظه نگه دارید و گزینه «کپی» را بزنید؛ سپس وارد روبیکا شوید و متن را برای ادمین ارسال کنید.</div>
+  <button class="btn ghost" type="button" onclick="copyOrder()">📋 کپی خودکار متن سفارش</button>
+  <div id="orderCopyResult" class="notice"></div>
+  <div class="result-actions">
+    <a class="btn ghost" href="https://rubika.ir/ADMIN_botrell">📱 سفارش در روبیکا</a>
+  </div>
+</div></div></section>
+
+<section id="rules" class="section dark"><div class="wrap"><div class="section-head"><span>قوانین و شرایط</span><h2>📜 قوانین پخشینو</h2><p>قوانین را قبل از ثبت سفارش با دقت مطالعه کنید.</p></div><div class="rules-box"><div class="rule-card"><h3>👑 VIP ۷ روزه</h3><p>📢 تبلیغ ۱۰ هزار نفری: ۱ بار رایگان<br>👥 تبلیغ گروه: ۱ بار رایگان<br>📣 تبلیغ کم‌هزینه: حداکثر ۲ بار در روز رایگان</p></div><div class="rule-card"><h3>💎 VIP ۱۵ روزه</h3><p>📢 تبلیغ ۱۰ هزار نفری: ۲ بار رایگان<br>👥 تبلیغ گروه: ۱ بار رایگان<br>📣 تبلیغ کم‌هزینه: حداکثر ۲ بار در روز رایگان</p></div><div class="rule-card"><h3>🔥 VIP ۴۰ روزه</h3><p>📢 تبلیغ ۱۰ هزار نفری: ۳ بار رایگان<br>👥 تبلیغ گروه: ۲ بار رایگان<br>📣 تبلیغ کم‌هزینه: حداکثر ۲ بار در روز رایگان</p></div><div class="rule-card"><h3>⚡ استفاده از سهمیه‌ها</h3><p>سهمیه‌های ویژه در مدت اعتبار VIP قابل استفاده هستند.</p></div><div class="rule-card"><h3>🚫 قوانین محتوایی</h3><p>پخشینو تبلیغات با محتوای غیراخلاقی را نمی‌پذیرد و این نوع محتوا امکان ثبت و انتشار در مجموعه پخشینو را ندارد.</p></div></div></div></section>
+</main>
+
+
+
+
+
+
+<section id="faq" class="section">
+  <div class="wrap">
+    <div class="section-head"><span>سؤالات متداول</span><h2>❓ سوالات متداول پخشینو</h2><p>پاسخ چند سؤال رایج درباره ثبت سفارش و ارتباط با پخشینو.</p></div>
+    <div class="card faq-card">
+      <div class="faq-item"><div class="faq-q">چطور سفارش ثبت کنم؟</div><div class="faq-a">از بخش «ثبت سفارش» اطلاعات موردنیاز را وارد کنید و سپس برای ارسال سفارش وارد روبیکا شوید.</div></div>
+      <div class="faq-item"><div class="faq-q">بعد از ثبت سفارش چه کاری انجام بدهم؟</div><div class="faq-a">متن سفارش آماده می‌شود. آن را کپی کنید، وارد روبیکا شوید و متن را برای پشتیبانی ارسال کنید.</div></div>
+      <div class="faq-item"><div class="faq-q">چطور با پخشینو ارتباط بگیرم؟</div><div class="faq-a">می‌توانید از بخش «تماس با ما» شماره تماس را کپی کنید یا از طریق آیدی روبیکای پشتیبانی پیام بدهید.</div></div>
+      <div class="faq-item"><div class="faq-q">آیا می‌توانم تعرفه‌ها را قبل از سفارش ببینم؟</div><div class="faq-a">بله، بخش «تعرفه‌ها» در همین صفحه برای مشاهده قیمت‌ها در دسترس است.</div></div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="section dark">
+  <div class="wrap order">
+    <div class="section-head"><span>ارتباط مستقیم</span><h2>📞 تماس با ما</h2><p>برای تماس، شماره را کپی کنید و با آن تماس بگیرید.</p></div>
+    <div class="contact-card">
+      <div class="contact-number">09982148658</div>
+      <button class="btn" type="button" onclick="copyPhone()">📋 کپی شماره</button>
+      <div id="phoneResult" class="notice"></div>
+    </div>
+  </div>
+</section>
+
+<section id="loyal" class="section">
+  <div class="wrap">
+    <div class="section-head"><span>اعتماد شما</span><h2>💙 ۵ مشتری وفادار پخشینو</h2><p>از اعتماد و همراهی مشتری‌های عزیزمون ممنونیم.</p></div>
+    <div class="loyal-grid">
+      <div class="loyal-card"><div class="loyal-avatar">👤</div><h3>@Sofie64AA</h3><p>همراه پخشینو 💙</p></div>
+      <div class="loyal-card"><div class="loyal-avatar">👤</div><h3>@AsZR13541353</h3><p>همراه پخشینو 💙</p></div>
+      <div class="loyal-card"><div class="loyal-avatar">👤</div><h3>@HAMD_55</h3><p>همراه پخشینو 💙</p></div>
+      <div class="loyal-card"><div class="loyal-avatar">👤</div><h3>مشتری وفادار ۴</h3><p>همراه پخشینو 💙</p></div>
+      <div class="loyal-card"><div class="loyal-avatar">👤</div><h3>مشتری وفادار ۵</h3><p>همراه پخشینو 💙</p></div>
+    </div>
+    
+  </div>
+</section>
+
+<section id="reviews" class="section">
+  <div class="wrap">
+    <div class="section-head"><span>نظر کاربران</span><h2>💬 نظرت درباره پخشینو چیه؟</h2></div>
+    <div class="review-card">
+      <label>👤 نام یا آیدی
+        <input id="reviewName" maxlength="40" placeholder="مثلاً @username">
+      </label>
+      <label>✍️ نظر شما
+        <textarea id="reviewText" rows="4" maxlength="500" placeholder="نظرت درباره پخشینو رو بنویس..."></textarea>
+      </label>
+      <button class="btn" type="button" id="reviewSubmit">💙 ارسال نظر</button>
+      <div id="reviewResult" class="notice" aria-live="polite"></div>
+      <div id="reviewList" class="review-list"></div>
+    </div>
+  </div>
+</section>
+
+<footer id="support"><div class="wrap footer">
+<div><b>پخشینو</b><p>خدمات تبلیغاتی و کاربردی در یکجا.</p></div>
+<div><b>پشتیبانی</b><p><a href="https://rubika.ir/booot_reeel" >📱 @booot_reeel</a></p><p>ادمین سفارش‌ها: <a href="https://rubika.ir/ADMIN_botrell" >@ADMIN_botrell</a></p></div>
+<div><b>لینک‌ها</b><p><a href="#home">خانه</a> · <a href="#about">درباره ما</a> · <a href="#prices">تعرفه‌ها</a> · <a href="#order">سفارش</a></p></div>
+</div><div class="copy">تمام حقوق این سایت مطلق به آیهان اسدی است</div></footer>
+<script>
+function copyPhone(){
+  const phone='09982148658';
+  const out=document.getElementById('phoneResult');
+  if(navigator.clipboard && window.isSecureContext){
+    navigator.clipboard.writeText(phone).then(()=>{out.textContent='✅ شماره کپی شد؛ حالا با شماره تماس بگیرید.'}).catch(()=>fallbackPhoneCopy(phone,out));
+  }else fallbackPhoneCopy(phone,out);
+}
+function fallbackPhoneCopy(phone,out){
+  const ta=document.createElement('textarea'); ta.value=phone; document.body.appendChild(ta); ta.select();
+  try{document.execCommand('copy'); out.textContent='✅ شماره کپی شد؛ حالا با شماره تماس بگیرید.'}catch(_){window.prompt('شماره را کپی کنید:',phone)}
+  ta.remove();
+}
+function toggleMenu(){
+  const m=document.getElementById('mobileMenu');
+  m.style.display=m.style.display==='block'?'none':'block';
+}
+function closeMenu(){document.getElementById('mobileMenu').style.display='none'}
+
+function copyCard(){
+  const card='6219861958584731', out=document.getElementById('cardResult');
+  if(navigator.clipboard && window.isSecureContext){navigator.clipboard.writeText(card).then(()=>out.textContent='✅ شماره کارت کپی شد.').catch(()=>fallbackCopy(card,out));}
+  else fallbackCopy(card,out);
+}
+function copyOrder(){
+  const text=document.getElementById('orderPreview').textContent, out=document.getElementById('orderCopyResult');
+  if(navigator.clipboard && window.isSecureContext){navigator.clipboard.writeText(text).then(()=>out.textContent='✅ متن سفارش کپی شد.').catch(()=>fallbackCopy(text,out));}
+  else fallbackCopy(text,out);
+}
+function fallbackCopy(value,out){
+  const ta=document.createElement('textarea'); ta.value=value; document.body.appendChild(ta); ta.select();
+  try{document.execCommand('copy'); out.textContent='✅ کپی شد.'}catch(e){window.prompt('برای کپی، متن را انتخاب کنید:',value)}
+  ta.remove();
+}
+
+function updateOrderPreview(){
+  const type=document.getElementById('orderType').value;
+  const note=document.getElementById('orderNote').value.trim() || '...';
+  document.getElementById('orderPreview').textContent='سلام، برای ثبت سفارش پخشینو پیام دادم.\n\nنوع سفارش: '+type+'\nتوضیحات: '+note+'\n\nلطفاً سفارش من را بررسی کنید.';
+}
+document.getElementById('orderType').addEventListener('change',updateOrderPreview);
+document.getElementById('orderNote').addEventListener('input',updateOrderPreview);
+
+
+function applyTheme(){
+  const day=localStorage.getItem('pakhshino-theme')==='day';
+  document.body.classList.toggle('day-mode',day);
+  const text=day?'🌙 حالت شب':'☀️ حالت روز';
+  const a=document.getElementById('themeBtn'),b=document.getElementById('themeBtnMobile');
+  if(a)a.textContent=text;if(b)b.textContent=text;
+}
+function toggleTheme(){
+  const day=!document.body.classList.contains('day-mode');
+  localStorage.setItem('pakhshino-theme',day?'day':'night');applyTheme();
+}
+applyTheme();
+</script>
+
+<script>
+(function(){
+  const box=document.getElementById('siteSearch');
+  const input=document.getElementById('siteSearchInput');
+  const results=document.getElementById('searchResults');
+  const btn=document.getElementById('searchBtn');
+  const close=document.getElementById('searchClose');
+  if(!box||!input||!results||!btn)return;
+  const items=[
+    ['خانه','صفحه اصلی و معرفی پخشینو','#home'],['خدمات','خدمات تبلیغاتی و کاربردی','#services'],
+    ['تعرفه‌ها','قیمت و تعرفه خدمات','#prices'],['سیستم مالی','پرداخت و سیستم مالی','#finance'],
+    ['VIP','پلن‌ها و امکانات VIP','#vip'],['ثبت سفارش','سفارش خدمات پخشینو','#order'],
+    ['درباره ما','معرفی پخشینو','#about'],['سوالات متداول','پاسخ سوالات رایج','#faq'],
+    ['تماس با ما','راه‌های ارتباطی','#contact'],['قوانین','قوانین و شرایط پخشینو','#rules'],['پشتیبانی','پشتیبانی پخشینو','#support']
+  ];
+  const normalize=s=>String(s||'').toLowerCase().replace(/[يى]/g,'ی').replace(/ك/g,'ک').replace(/[ۀة]/g,'ه').replace(/‌/g,' ').trim();
+  function render(q){
+    const query=normalize(q);
+    if(!query){results.innerHTML='';return;}
+    const matches=items.filter(x=>normalize(x[0]+' '+x[1]).includes(query));
+    results.innerHTML=matches.length?matches.map(x=>'<a class="search-result" href="'+x[2]+'">🔎 <b>'+x[0]+'</b><small> — '+x[1]+'</small></a>').join(''):'<div class="search-empty">موردی پیدا نشد.</div>';
+  }
+  function open(){box.classList.add('open');setTimeout(()=>input.focus(),30);render(input.value);}
+  function shut(){box.classList.remove('open');results.innerHTML='';}
+  btn.addEventListener('click',e=>{e.stopPropagation();box.classList.contains('open')?shut():open();});
+  close&&close.addEventListener('click',shut);
+  input.addEventListener('input',()=>render(input.value));
+  input.addEventListener('keydown',e=>{if(e.key==='Escape')shut();});
+  results.addEventListener('click',e=>{const a=e.target.closest('a');if(a)shut();});
+  document.addEventListener('click',e=>{if(box.classList.contains('open')&&!box.contains(e.target)&&!btn.contains(e.target))shut();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&box.classList.contains('open'))shut();});
+})();
+</script>
+
+<style>
+.channel-modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;background:rgba(2,7,18,.72);backdrop-filter:blur(7px);padding:20px}.channel-modal.open{display:flex}.channel-modal-box{position:relative;width:min(430px,100%);background:linear-gradient(160deg,#111d33,#0b1220);border:1px solid #31508a;border-radius:24px;padding:28px 22px;text-align:center;box-shadow:0 25px 80px #000b;animation:modalIn .25s ease}.channel-modal-box .modal-icon{font-size:42px;margin-bottom:8px}.channel-modal-box h3{margin:4px 0 8px;font-size:22px}.channel-modal-box p{color:#aeb9cf;margin:0 0 22px}.channel-id{display:inline-block;direction:ltr;color:#83a8ff;font-weight:900;background:#101b35;border:1px solid #294575;padding:7px 13px;border-radius:10px;margin-bottom:20px}.modal-actions{display:flex;gap:10px}.modal-actions a{flex:1}.modal-no{background:#151d2d!important;border:1px solid #35425c!important;box-shadow:none!important}.modal-close{position:absolute;top:12px;right:15px;background:transparent;border:0;color:#9eabc2;font-size:25px;cursor:pointer}@keyframes modalIn{from{opacity:0;transform:translateY(12px) scale(.97)}to{opacity:1;transform:none}}
+</style>
+<div id="channelModal" class="channel-modal" role="dialog" aria-modal="true" aria-labelledby="channelModalTitle">
+  <div class="channel-modal-box">
+    <button class="modal-close" id="channelModalClose" type="button" aria-label="بستن">×</button>
+    <div class="modal-icon">🥲</div>
+    <h3 id="channelModalTitle">تو کانال ما عضو میشی؟</h3>
+    <p>قبل از ثبت سفارش، کانال ما رو هم همراهی می‌کنی؟</p>
+    <div class="channel-id">@rallmadridhalamadrid</div>
+    <div class="modal-actions">
+      <a class="btn" href="https://rubika.ir/rallmadridhalamadrid" target="_blank" rel="noopener">آره 💙</a>
+      <a class="btn modal-no" href="https://rubika.ir/ADMIN_botrell" target="_blank" rel="noopener">نه</a>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  const modal=document.getElementById('channelModal');
+  const close=document.getElementById('channelModalClose');
+  if(!modal) return;
+  function openModal(e){
+    const link=e.target.closest('a[href="#order"]');
+    if(!link) return;
+    e.preventDefault();
+    e.stopPropagation();
+    modal.classList.add('open');
+    document.body.style.overflow='hidden';
+    const no=modal.querySelector('.modal-no');
+    if(no) no.focus();
+  }
+  function shut(){modal.classList.remove('open');document.body.style.overflow='';}
+  document.addEventListener('click',openModal,true);
+  close?.addEventListener('click',shut);
+  modal.addEventListener('click',e=>{if(e.target===modal)shut();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open'))shut();});
+})();
+</script>
+
+<script id="pakhshino-calc-js">(function(){const type=document.getElementById('calcType'),qty=document.getElementById('calcQty'),original=document.getElementById('calcOriginal'),discount=document.getElementById('calcDiscount'),total=document.getElementById('calcTotal'),msg=document.getElementById('calcMessage');if(!type||!qty)return;const fa=n=>Math.round(n).toLocaleString('fa-IR');function update(){let price=Number(type.value)||0;let raw=qty.value.trim(); if(raw===''){original.textContent='۰ تومان';discount.textContent='۰ تومان';total.textContent='۰ تومان';msg.textContent='تعداد سفارش را وارد کنید.';return;} let count=Math.floor(Number(raw)); if(!Number.isFinite(count)){return;} count=Math.max(1,Math.min(100,count)); const base=price*count,off=count>=2?base*.1:0;original.textContent=fa(base)+' تومان';discount.textContent=off?fa(off)+' تومان (۱۰٪)':'۰ تومان';total.textContent=fa(base-off)+' تومان';msg.textContent=count>=2?'🎁 تخفیف ۱۰٪ برای این تعداد سفارش اعمال شد.':'با خرید ۲ سفارش یا بیشتر، ۱۰٪ تخفیف اعمال می‌شود.'}type.addEventListener('input',update);type.addEventListener('change',update);qty.addEventListener('input',update);qty.addEventListener('change',update);update()})();</script>
+<script id="pakhshino-reviews-js">(function(){
+ const KEY='pakhshino_reviews_v1';
+ const nameEl=document.getElementById('reviewName'), textEl=document.getElementById('reviewText'), btn=document.getElementById('reviewSubmit'), list=document.getElementById('reviewList'), result=document.getElementById('reviewResult');
+ if(!nameEl||!textEl||!btn||!list)return;
+ function get(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(_){return []}}
+ function save(items){localStorage.setItem(KEY,JSON.stringify(items))}
+ function render(){
+   const items=get();
+   if(!items.length){list.innerHTML='<div class="review-empty">هنوز نظری ثبت نشده؛ اولین نفر باش 😃</div>';return;}
+   list.innerHTML=items.map((r,i)=>'<article class="review-item"><div class="review-top"><span class="review-name">'+escapeHtml(r.name)+'</span><span class="review-date">'+escapeHtml(r.date)+'</span></div><p class="review-text">'+escapeHtml(r.text)+'</p><div class="review-actions"><button class="review-delete" type="button" data-review-delete="'+i+'">🗑 حذف</button></div></article>').join('');
+ }
+ function escapeHtml(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+ btn.addEventListener('click',function(){
+   const name=nameEl.value.trim()||'کاربر پخشینو', text=textEl.value.trim();
+   if(!text){result.textContent='⚠️ اول نظرت رو بنویس.';textEl.focus();return;}
+   const items=get();
+   items.unshift({name,text,date:new Date().toLocaleDateString('fa-IR')});
+   save(items.slice(0,50));
+   textEl.value=''; result.textContent='✅ نظر ثبت شد.'; render();
+ });
+ list.addEventListener('click',function(e){
+   const b=e.target.closest('[data-review-delete]'); if(!b)return;
+   const i=Number(b.dataset.reviewDelete), items=get(); items.splice(i,1); save(items); render(); result.textContent='🗑 نظر حذف شد.';
+ });
+ render();
+})();</script>
+
+<a class="floating-order" href="#order">🚀 ثبت سفارش سریع</a>
+</body>
+</html>
